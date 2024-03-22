@@ -22,7 +22,7 @@
 
           src = ./.;
 
-          nativeBuildInputs = with pkgs; [ nodejs-18_x xcbuild ];
+          nativeBuildInputs = with pkgs; [ nodejs-18_x xcbuild.xcrun ];
 
           vendorHash = "sha256-KnHJ6+aMahTeNdbRcRAgBERGVYen/tM/tDcFI/NyLdE=";
 
